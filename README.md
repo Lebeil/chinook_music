@@ -25,7 +25,7 @@ a) Niveau facile
 
 b) Niveau Moyen
 
-Combien y a t'il d'albums dont le titre contient "Great" ? (indice)
+* Combien y a t'il d'albums dont le titre contient "Great" ? (indice)
 ```
 > Album.where("title like ?", "%Great%").size
 => 13
